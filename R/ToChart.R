@@ -8,6 +8,11 @@ ToChart  = function(DTF){
     install.packages("ggplot2")
   library(ggplot2, quietly = TRUE)
 
+  if (!require("dplyr"))
+    install.packages("dplyr")
+  library(dplyr, quietly = TRUE)
+
+
   amount <<- readline(prompt = "Enter Amount of Top Occurences ")
   amount <<- as.integer(amount)
 
