@@ -1,0 +1,13 @@
+Package: PDFMiner
+Type: Package
+Title: PDF File Text Miner
+Version: 0.1.0
+Authors@R: person("Rakha Hafish", "Setiawan", email = "rakha.hafish@gmail.com", role = c("aut", "cre"))
+Description: This package is a collection of existing libraries to allow
+    the ease of user to obtain a data frame and a data matrix, as well as
+    plotting a chart and a wordcloud.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.9)
+LinkingTo: Rcpp
